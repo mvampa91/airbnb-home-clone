@@ -3,6 +3,7 @@ import "./Home.css";
 import Banner from "./Banner";
 import Card from "./Card";
 import { Button } from "@material-ui/core";
+import Suggestion from "./Suggestion";
 
 const Home = () => {
   return (
@@ -81,6 +82,9 @@ const Home = () => {
             }}
           />
         </div>
+      </div>
+      <div className="home__suggestion">
+        <Suggestion />
       </div>
     </div>
   );

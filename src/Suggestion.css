@@ -1,0 +1,39 @@
+.suggestion__top {
+    display: flex;
+    margin-bottom: 7em;
+}
+
+.suggestion__top > h1 {
+    display: flex;
+    margin-right: 13%;
+    line-height: 1.1;
+    font-size: 2em;
+    font-weight: 700;
+}
+.suggestion__top > p {
+    display: flex;
+    margin-left: 3em;
+    margin-right: 14%;
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+
+.suggestion__bottom > h2 {
+    font-weight: 500;
+}
+
+.suggestion__bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.suggestion__bottom-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.suggestion__bottom-card > .suggestionCard {
+    width: 25%;
+    margin-bottom: 0.75em;
+}

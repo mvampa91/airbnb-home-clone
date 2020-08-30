@@ -1,0 +1,28 @@
+.suggestionCard {
+    display: flex;
+}
+
+.suggestionCard__left > img {
+    width: 4em;
+    border-radius: 0.5em;
+}
+
+.suggestionCard__right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    margin: 0 1em;
+}
+
+.suggestionCard__right > h4 {
+    margin: 0;
+    font-weight: 500;
+}
+.suggestionCard__right > p {
+    margin: 0;
+}
+.suggestionCard:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
