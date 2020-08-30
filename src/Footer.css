@@ -1,0 +1,72 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+.footer__top {
+    display: flex;
+    flex: 1;
+}
+.footer__bottom {
+    display: flex;
+    flex: 1;
+    border-top: 1px solid lightgray;
+    margin-top: 2em;
+}
+.footer__bottom-left {
+    display: flex;
+    flex: 1;
+}
+.footer__bottom-left > p {
+    margin: 1.5em 0;
+    font-weight: 100;
+}
+.footer__bottom-left > p > span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.footer__bottom-right {
+    display: flex;
+}
+.footer__bottom-right > * {
+    margin-left: 2em;
+}
+.footer__bottom-right > * h5 {
+    font-weight: 500;
+    text-decoration: underline;
+}
+.footer__bottom-right__language {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.footer__bottom-right__language > * {
+    margin-left: 0.5em;
+}
+.footer__bottom-right__language:hover {
+    opacity: 0.7;
+    transition: all 0.1s ease-in;
+}
+.footer__bottom-right__currency {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.footer__bottom-right__currency:hover {
+    opacity: 0.7;
+    transition: all 0.1s ease-in;
+}
+.footer__bottom-right__currency > * {
+    margin-left: 0.5em;
+}
+.footer__bottom-right__icons {
+    display: flex;
+    align-items: center;
+}
+.footer__bottom-right__icons > * {
+    margin-left: 1em;
+    cursor: pointer;
+}
+.footer__bottom-right__icons > *:hover {
+    opacity: 0.7;
+    transition: all 0.1s ease-in;
+}

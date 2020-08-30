@@ -1,0 +1,17 @@
+.footerSection {
+    flex: 1;
+}
+
+.footerSection > h5 {
+    text-transform: uppercase;
+}
+
+.footerSection > p {
+    cursor: pointer;
+    font-weight: 100;
+    line-height: 1.1;
+}
+
+.footerSection > p:hover {
+    text-decoration: underline;
+}

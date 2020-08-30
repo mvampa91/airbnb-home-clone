@@ -4,6 +4,7 @@ import Banner from "./Banner";
 import Card from "./Card";
 import { Button } from "@material-ui/core";
 import Suggestion from "./Suggestion";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -85,6 +86,9 @@ const Home = () => {
       </div>
       <div className="home__suggestion">
         <Suggestion />
+      </div>
+      <div className="home__footer">
+        <Footer />
       </div>
     </div>
   );

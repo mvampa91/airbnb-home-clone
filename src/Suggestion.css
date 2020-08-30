@@ -1,6 +1,6 @@
 .suggestion__top {
     display: flex;
-    margin-bottom: 7em;
+    margin-bottom: 6em;
 }
 
 .suggestion__top > h1 {
@@ -20,6 +20,7 @@
 
 .suggestion__bottom > h2 {
     font-weight: 500;
+    margin-bottom: 1.5em;
 }
 
 .suggestion__bottom {
