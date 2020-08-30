@@ -18,6 +18,7 @@
 .suggestionCard__right > h4 {
     margin: 0;
     font-weight: 500;
+    line-height: 1;
 }
 .suggestionCard__right > p {
     margin: 0;

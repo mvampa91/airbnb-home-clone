@@ -4,7 +4,7 @@ import "./HeaderInput.css";
 
 const HeaderInput = () => {
   return (
-    <div className="header__center-input">
+    <div className="header__center-input" tabIndex="0">
       <input type="text" placeholder="Inizia la ricerca"></input>
       <SearchIcon
         style={{
