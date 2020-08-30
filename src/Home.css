@@ -1,0 +1,54 @@
+.home__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2em 4.5em 4em;
+  height: 25em;
+}
+
+.home__online-experiences {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+}
+
+.home__online-experiences__text {
+  display: flex;
+  flex: 0.4;
+  flex-direction: column;
+}
+
+.home__online-experiences__text > * {
+  margin: 0;
+}
+
+.home__online-experiences__text > h4 {
+  font-size: 1.11em;
+  font-weight: 400;
+}
+
+.home__online-experiences__top {
+  padding: 4em 5em 0;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.home__online-experiences__top > .MuiButtonBase-root {
+  height: 2.5em;
+  border-radius: 0.5em;
+  padding: 0 1em;
+}
+
+.home__online-experiences__cards {
+  padding: 2em 4.5em 4em;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 21.75em 21.75em;
+  justify-content: space-between;
+}
+
+.home__online-experiences__cards > * .card__text {
+  height: 2.5em;
+  font-size: 1.1em;
+}

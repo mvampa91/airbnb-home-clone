@@ -1,0 +1,49 @@
+.headerOption > p {
+  display: flex;
+  padding: 0.2em;
+  margin: 0.8em;
+}
+.headerOption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  outline-width: 0;
+}
+
+.headerOption.selected::after {
+  background-color: currentcolor;
+  border-radius: 0.25em;
+  bottom: 8px;
+  content: "";
+  height: 0.125em;
+  margin-left: 0;
+  position: absolute;
+  width: 1em;
+  transition: all 0.2s ease-out;
+}
+
+.headerOption:not(.selected):hover::after {
+  background-color: currentcolor;
+  border-radius: 0.25em;
+  bottom: 0.5em;
+  content: "";
+  height: 0.125em;
+  margin-left: 0;
+  position: absolute;
+  width: 0.25em;
+  transition: all 0.2s ease-out;
+}
+
+.headerOption:not(.selected)::after {
+  background-color: currentcolor;
+  border-radius: 0.25em;
+  bottom: 0.5em;
+  content: "";
+  height: 0.125em;
+  margin-left: 0;
+  position: absolute;
+  width: 0;
+  transition: all 0.2s ease-out;
+}

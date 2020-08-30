@@ -1,0 +1,5 @@
+.header__center-options {
+  display: flex;
+  justify-content: center;
+  transition: all 0.2s ease-out;
+}

@@ -1,0 +1,47 @@
+.banner {
+  margin: 2em 5em;
+  border-radius: 1em;
+  display: flex;
+  height: 26em;
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.banner__text {
+  display: flex;
+  flex-direction: column;
+  padding: 4em;
+  flex: 0.25;
+}
+
+.banner__text > h4 {
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.banner__text > h2,
+.banner__text > h4,
+.banner__link > .MuiSvgIcon-root,
+.banner__link > h4 {
+  color: white;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.banner__text > h2 {
+  font-size: 2em;
+}
+
+.banner__link {
+  display: flex;
+  align-items: center;
+}
+.banner__link > .MuiSvgIcon-root {
+  font-size: 1em;
+}
+.banner__link > h4 {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-right: 0.25em;
+}
