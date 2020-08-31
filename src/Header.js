@@ -3,7 +3,7 @@ import LanguageIcon from "@material-ui/icons/Language";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import MenuIcon from "@material-ui/icons/Menu";
 import { Avatar } from "@material-ui/core";
-
+import { Link } from "react-router-dom";
 import "./Header.css";
 import HeaderOptionList from "./HeaderOptionList";
 import HeaderInput from "./HeaderInput";
@@ -38,19 +38,22 @@ const Header = () => {
 
   return (
     <div className="header">
-      <div className="header__logo">
-        <img
-          alt="logo"
-          src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg"
-        />
-      </div>
+        <div className="header__logo">
+          <Link to="/">
+            <img
+              alt="logo"
+              src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg"
+            />
+          </Link>
+        </div>
+
 
       <div className="header__center">
         <HeaderOptionList
           options={[
             { title: "Alloggi", id: 1 },
             { title: "Esperienze", id: 2 },
-            { title: "Esperienze Online", id: 3 },
+            { title: "Esperienze Online", id: 3, to: '/s/experiences/online' },
           ]}
         />
         <HeaderInput />

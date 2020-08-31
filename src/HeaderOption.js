@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./HeaderOption.css";
 
-const HeaderOption = ({ title, selected, onClick, id }) => {
+const HeaderOption = ({ title, selected, onClick, id, to }) => {
   return (
     <div
       role="button"
@@ -9,7 +10,7 @@ const HeaderOption = ({ title, selected, onClick, id }) => {
       onClick={(e) => onClick(id)}
       tabIndex="0"
     >
-      <p>{title}</p>
+      {to ? <Link className="headerOption__link" to={to}><p>{title}</p></Link> : <p>{title}</p>}
     </div>
   );
 };

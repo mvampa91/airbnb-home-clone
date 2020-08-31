@@ -87,9 +87,6 @@ const Home = () => {
       <div className="home__suggestion">
         <Suggestion />
       </div>
-      <div className="home__footer">
-        <Footer />
-      </div>
     </div>
   );
 };

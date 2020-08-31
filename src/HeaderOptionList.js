@@ -17,6 +17,7 @@ const HeaderOptionList = ({ options }) => {
           selected={selected === o.id}
           id={o.id}
           key={o.id}
+          to={o.to}
           onClick={handleClick}
         />
       ))}

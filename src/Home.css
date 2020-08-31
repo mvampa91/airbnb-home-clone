@@ -57,9 +57,3 @@
   display: flex;
   padding: 3em 5em 2em;
 }
-
-.home__footer {
-  background-color: #f5f5f5;
-  border-top: 1px lightgray solid;
-  padding: 2em 5em 0em;
-}
